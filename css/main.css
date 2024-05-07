@@ -36,7 +36,8 @@
  * -------------------------------------------------------------------
  */
 /* @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+/**@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
@@ -73,7 +74,7 @@ html, body {
 }
 body {
 	background: #151515;
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 	font-size: 1.8rem;
 	line-height: 2rem;
 	color: #333;
@@ -103,7 +104,7 @@ a:hover, a:focus, a:active {
  * -------------------------------------------------------------------
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	color: #313131;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -113,7 +114,7 @@ h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: "Nunito";
+	font-family: "Quattrocento Sans";
 	margin-bottom: 1.2rem;
 }
 h1, .h01 {
@@ -155,13 +156,13 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
 }
 p.connect{
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 	font-size: 3rem;
 	line-height: 1.8;
 	color: #ffffff;
@@ -178,10 +179,10 @@ em, i, strong, b {
 	font-weight: normal;
 }
 em, i {
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 }
 strong, b {
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 	font-weight: 700;
 }
 small {
@@ -225,7 +226,7 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
@@ -332,7 +333,7 @@ table {
 	border-width: 0;
 	width: 100%;
 	max-width: 100%;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 }
 th, td {
 	padding: 1.5rem 3rem;
@@ -341,7 +342,7 @@ th, td {
 }
 th {
 	color: #313131;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 }
 td {
 	line-height: 1.5;
@@ -607,7 +608,7 @@ select:focus {
 	border-bottom: 1px solid #FF0077;
 }
 label, legend {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
 	color: #3b3b3b;
@@ -661,7 +662,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-weight: 700;
 	font-size: 1.4rem;
 	text-transform: uppercase;
@@ -810,7 +811,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: 0;
 	padding: 1.5rem .6rem 0 0;
 	font-size: 8.4rem;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	line-height: 6rem;
 	text-indent: 0;
 	background: transparent;
@@ -930,7 +931,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 2.5rem;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	border: none;
 	color: #252525;
 }
@@ -965,7 +966,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: absolute;
 	left: 0;
 	top: -3rem;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -1044,7 +1045,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 	font-size: 3.6rem;
 	color: #313131;
 	line-height: 1.25;
@@ -1341,7 +1342,7 @@ header .logo a {
 }
 .intro-content h2 {
 	color: #FFFFFF;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 7.5rem;
 	line-height: 1.071;
 	max-width: 900px;
@@ -1353,7 +1354,7 @@ header .logo a {
 }
 .intro-content h5 {
 	color: #cc005f;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-weight: 700;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1363,7 +1364,7 @@ header .logo a {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "Nunito", serif;
+	font-family: "Quattrocento Sans", serif;
 	font-size: 2rem;
 	line-height: 4rem;
 	/* text-transform: uppercase; */
@@ -1545,7 +1546,7 @@ header .logo a {
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -1559,7 +1560,7 @@ header .logo a {
 	margin-bottom: .6rem;
 }
 .about-content .info-list li strong {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -1931,7 +1932,7 @@ header .logo a {
 	padding: 1.8rem 3.6rem 3rem;
 }
 .popup-modal .description-box h4 {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
@@ -1943,7 +1944,7 @@ header .logo a {
 	margin-bottom: 12px;
 }
 .popup-modal .categories {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
 	text-transform: uppercase;
@@ -1958,7 +1959,7 @@ header .logo a {
 	background: #000000;
 }
 .popup-modal .link-box a {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 1.2rem;
 	line-height: 6rem;
 	color: #FFFFFF;
@@ -2326,7 +2327,7 @@ header .logo a {
 	clear: both;
 }
 #contact form .form-field label {
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 1.1rem;
 	line-height: 2.4rem;
 	position: absolute;
@@ -2423,7 +2424,7 @@ header .logo a {
 }
 #submit-loader .text-loader {
 	display: none;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	color: #FFFFFF;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
@@ -2438,7 +2439,7 @@ header .logo a {
 	color: #FFFFFF;
 	line-height: 2.5rem;
 	margin: 4.8rem auto 0;
-	font-family: "Nunito", sans-serif;
+	font-family: "Quattrocento Sans", sans-serif;
 	font-size: 1.8rem;
 	text-align: center;
 }
